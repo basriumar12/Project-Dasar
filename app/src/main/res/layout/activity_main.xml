@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="id.co.blogbasbas.belajartoastalert.MainActivity">
+
+    <!--rubah group layout ke linear layout
+    tambahkan 2 button dan 1 widget-->
+
+    <Button
+        android:id="@+id/toast"
+        android:text="Button Toast"
+        android:layout_marginTop="90dp"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/showCount"
+        android:textColor="@color/colorAccent"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:textSize="60sp"
+        android:text="0"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+    <Button
+        android:id="@+id/count"
+        android:text="Button Count"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+   <!-- tambahkan satu button toast-->
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:id="@+id/alert"
+        android:text="Button Alert"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+</LinearLayout>
